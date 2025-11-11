@@ -1,28 +1,42 @@
-# Template Base
+# 🎥 Masterclass Tailwind CSS
 
-Plantilla base **agnóstica de lenguaje** para iniciar repos y derivar plantillas específicas (Node, PHP, Python, Go, etc.). Optimizada para uso con **VS Code** y edición directa en **GitHub**.
+> **Crea una Landing Profesional desde Cero (y personalízala con tu propio tema)**
 
-> Repo: <https://github.com/oriolcortes/template-base>
+Esta masterclass es un tutorial paso a paso para construir una landing page moderna con **Tailwind CSS** usando solo HTML y el CDN, sin frameworks ni configuraciones complejas.
 
-## ¿Qué incluye?
+## 📚 Contenido del proyecto
 
-- Ajustes de editor y estilos básicos (`.editorconfig`, `.gitattributes`, `.gitignore`, `.vscode`).
-- Linter de Markdown vía **GitHub Actions** (se ejecuta en cada push/PR).
-- Plantillas de **issues** (bug/mejora) y **pull request**.
-- Documentos básicos: `CONTRIBUTING`, `CODE_OF_CONDUCT`, `SECURITY`, `LICENSE`, `CHANGELOG`.
+- **[`_walkthrough.md`](./_walkthrough.md)** - Guión técnico completo de la masterclass con todos los pasos, código y explicaciones
+- **[`index.html`](./index.html)** - Landing page final con header, features, CTA, footer y modo oscuro
+- **[`tailwind.config.js`](./tailwind.config.js)** - Configuración mínima para que funcione Tailwind CSS IntelliSense
 
-## Uso
+## 🎯 ¿Qué aprenderás?
 
-1. Crea un repo desde esta plantilla (o copia los archivos).
-2. Si vas a reutilizarla, marca el repo como **Template repository** (Settings → Features).
-3. Opcional: activa protección de rama en `main` y exige el check **Markdown Lint**.
+- ✅ Usar Tailwind CSS con el CDN (sin instalación)
+- ✅ Crear layouts responsive con clases utilitarias
+- ✅ Implementar modo oscuro con `dark:` classes
+- ✅ Personalizar colores y fuentes con `@theme`
+- ✅ Trabajar con flexbox, grid, gradientes y transiciones
+- ✅ Buscar y entender la documentación oficial
 
-## Derivados por lenguaje
+## ⚡ Inicio rápido
 
-En cada derivado añade lo específico del stack (dependencias, tests, lints, workflows adicionales).
-Convención sugerida de nombres: `template-{lenguaje|runtime}-{framework?}-{variant?}`
-Ej.: `template-node-express-docker`, `template-python-fastapi-docker`.
+1. Abre `index.html` en tu navegador
+2. Instala la extensión [Tailwind CSS IntelliSense](vscode:extension/bradlc.vscode-tailwindcss) en VS Code
+3. ¡Empieza a editar y ver los cambios!
 
-## Licencia
+## 🚀 Características de la landing
 
-MIT (ver `LICENSE`).
+- 🎨 Diseño moderno con gradientes y sombras
+- 📱 Totalmente responsive (mobile-first)
+- 🌙 Modo oscuro funcional
+- 🎭 Transiciones y hover effects
+- ⚡ Sin dependencias - solo HTML + Tailwind CDN
+
+## 📖 Duración
+
+Aproximadamente **55-60 minutos** de contenido práctico.
+
+---
+
+**¿Listo para dominar Tailwind?** Recuerda: diseña más, escribe menos CSS.
